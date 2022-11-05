@@ -1,16 +1,16 @@
-import './App.css';
+import "./App.css";
 import { Route, Switch, Redirect } from "react-router-dom";
 
 // Components
-import Store from './components/Store';
-import ProductDetails from './components/ProductDetails';
-import Navbar from './components/shared/Navbar';
-import ShopCart from './components/ShopCart';
+import Store from "./components/Store";
+import ProductDetails from "./components/ProductDetails";
+import Navbar from "./components/shared/Navbar";
+import ShopCart from "./components/ShopCart";
 
 // Context
-import ProductContextProvider from './context/ProductContextProvider';
-import CartContextProvider from './context/CartContextProvider';
-
+import ProductContextProvider from "./context/ProductContextProvider";
+import CartContextProvider from "./context/CartContextProvider";
+console.log("test1");
 function App() {
   return (
     <ProductContextProvider>
